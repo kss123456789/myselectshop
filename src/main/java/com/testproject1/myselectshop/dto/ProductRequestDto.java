@@ -5,8 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@NoArgsConstructor //없어도 되지 않나?
+@AllArgsConstructor //없어도 되지 않나?
 public class ProductRequestDto {
     // 관심상품명
     private String title;
